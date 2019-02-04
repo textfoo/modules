@@ -1,0 +1,19 @@
+{
+    "base" : "https://liquipedia.net/",
+    "healthcheck" : "https://liquipedia.net/api.php?", 
+    "params" : {
+        "action" : "parse", 
+        "format" : "json",
+        "page" : ""
+    },
+    "headers" : {
+        "User-Agent" : "jarvisBot(https://github.com/textfoo/jarvis_v2", 
+        "Accept-Encoding" : "gzip"
+    },
+    "rocketleague" : {
+        "url" : "rocketleague/api.php?", 
+        "pages" : {
+            "qualifier": "Qualifier_Tournaments"
+        }
+    }
+}
